@@ -1,0 +1,16 @@
+{
+  "name": "node-babel-method",
+  "version": "1.0.0",
+  "description": "A simple how-to about ES6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreyansh Pandey <334@doonschool.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "hapi": "^13.0.0"
+  }
+}

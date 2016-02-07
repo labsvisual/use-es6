@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test Page</title>
+    </head>
+    <body>
+
+        <!-- JavaScript -->
+
+        <script type="text/javascript">
+
+            'use strict';
+
+            ( () => {
+
+                const name = 'Shreyansh';
+                let   counter = 1;
+
+                const id = setInterval( () => {
+
+                    console.log( `Hello ${ name }` );
+                    if( counter++ === 10 ) {
+
+                        clearInterval( id );
+
+                    }
+
+                }, 1000 );
+
+            } )();
+
+        </script>
+
+    </body>
+</html>
